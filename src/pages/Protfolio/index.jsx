@@ -72,7 +72,7 @@ export const Protfolio = () => {
 						<Col sx={12} sm={6} md={4}>
 							{/* <div className="firstimg portfolio_imgleft">
 								<a
-									href="https://e-com-frontend-roan.vercel.app/"
+									href="https://portfolio-six-nu-85.vercel.app/"
 									target="blank">
 									<img
 										src="http://res.cloudinary.com/dnqplq5hb/image/upload/v1726320733/bub2zzuomzjbmc78ge0x.jpg"

@@ -16,6 +16,7 @@ export const About = () => {
 							<img
 								className="about_img"
 								src="https://res.cloudinary.com/dnqplq5hb/image/upload/v1726320897/kft3ttwxxru1enpxo3rq.jpg"
+								src="https://res.cloudinary.com/dnqplq5hb/image/upload/v1726320897/kft3ttwxxru1enpxo3rq.jpg"
 								alt=""
 							/>
 						</div>
