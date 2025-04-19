@@ -1,5 +1,4 @@
 import Container from "react-bootstrap/Container";
-import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./portfolio.css";
@@ -40,7 +39,7 @@ export const Protfolio = () => {
 				<div className="portfolioimages">
 					<Row>
 						<Col sx={12} sm={6} md={4}>
-							{/* <div className="firstimg">
+							<div className="firstimg">
 								<a
 									href="https://e-com-frontend-roan.vercel.app/"
 									target="blank">
@@ -55,24 +54,12 @@ export const Protfolio = () => {
 								<div>
 									<h3 className={hover}>{HoverData}</h3>
 								</div>
-							</div> */}
-							<Card style={{ width: "18rem" }}>
-								<Card.Img
-									variant="top"
-									src="https://res.cloudinary.com/dnqplq5hb/image/upload/v1726320593/euvqteypqzvmm8tryolo.png"
-									height={"375rem"}
-								/>
-								<Card.Body>
-									<a href="" style={{ textDecoration: "none", color: "black" }}>
-										<Card.Title>Ecommerce Website</Card.Title>
-									</a>
-								</Card.Body>
-							</Card>
+							</div>
 						</Col>
 						<Col sx={12} sm={6} md={4}>
-							{/* <div className="firstimg portfolio_imgleft">
+							<div className="firstimg portfolio_imgleft">
 								<a
-									href="https://portfolio-six-nu-85.vercel.app/"
+									href="https://e-com-frontend-roan.vercel.app/"
 									target="blank">
 									<img
 										src="http://res.cloudinary.com/dnqplq5hb/image/upload/v1726320733/bub2zzuomzjbmc78ge0x.jpg"
@@ -85,21 +72,7 @@ export const Protfolio = () => {
 								<div className="imgtext">
 									<h3 className={hover2}>{HoverData}</h3>
 								</div>
-							</div> */}
-							<Card style={{ width: "18rem" }}>
-								<Card.Img
-									variant="top"
-									src="http://res.cloudinary.com/dnqplq5hb/image/upload/v1726320733/bub2zzuomzjbmc78ge0x.jpg"
-									height={"375rem"}
-								/>
-								<Card.Body>
-									<a
-										href="https://portfolio-six-nu-85.vercel.app/"
-										style={{ textDecoration: "none", color: "black" }}>
-										<Card.Title>Portfolio Website</Card.Title>
-									</a>
-								</Card.Body>
-							</Card>
+							</div>
 						</Col>
 					</Row>
 				</div>
