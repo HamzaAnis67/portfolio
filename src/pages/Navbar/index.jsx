@@ -6,7 +6,11 @@ export const Navbar1 = () => {
 	return (
 		<Container>
 			<nav>
-				<h3 className="title">HA</h3>
+				<a
+					href="https://portfolio-six-nu-85.vercel.app/"
+					style={{ textDecoration: "none" }}>
+					<h3 className="title">HA</h3>
+				</a>
 				<div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
 					<span></span>
 					<span></span>
